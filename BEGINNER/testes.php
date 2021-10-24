@@ -1,9 +1,10 @@
 <?php
+//reads an employee's number, worked hours number and amount he received per hour
+$primeiroDia = explode(" ", fgets(STDIN));
+$H1 = $primeiroDia[0];
+$M1 = $primeiroDia[1];
+$S1 = $primeiroDia[2];
 
-if ($argc != 2 || in_array($argv[1], array('texto1', 'texto 2', 'texto3', 'texto4'))) {
-     echo $argv[0]; 
-} else {
-     echo $argv[1];
-}
 
- ?>
+echo "$H1 $M1 $S1\n";
+?>
